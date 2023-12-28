@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url("login.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+     background-color: white;
+    height: 540px;
+    width: 90%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+}
+.content{
+    margin-left: 70px;
+height:540px;
+width: 40%;
+background-color: white;
+}
+.img{
+height: 540px;
+width: 60%;
+background-image:url("vector2.jpg");
+}
+a{
+    color: magenta;
+}
+#google{
+   background-color: white;
+   color:red;
+   width:100px;
+   height: 40px;
+   border-color:red;
+   border-radius:10px;
+   margin-left: 50px;
+}
+#facebook{
+    background-color: white;
+    color:rgb(34, 34, 96);
+    width:100px;
+    height: 40px;
+    border-color:rgb(34, 34, 96);
+    border-radius:10px;
+}
+#login{
+    background-color: magenta;
+color:white;
+width:300px;
+height: 30px;
+border-radius: 10px;
+}
